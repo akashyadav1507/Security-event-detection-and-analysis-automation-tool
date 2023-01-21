@@ -11,15 +11,15 @@ The tool also implements encryption(symmetric) so all your API keys are secret &
     2. All dependencies mentioned in requirements.txt file.
     3. API keys from multiple threat intelligence platforms being used.
 
-Features
+[Features](https://github.com/akashyadav1507/security-event-detection-and-analysis-automation-tool/blob/main/README.md#features)
 
-Requirements.txt
+[Requirements.txt](https://github.com/akashyadav1507/security-event-detection-and-analysis-automation-tool/edit/main/README.md#requirements)
 
-How to Use
+[How to Use](https://github.com/akashyadav1507/security-event-detection-and-analysis-automation-tool/edit/main/README.md#how-to-use)
 
-Pull Requests
+[Pull Requests](https://github.com/akashyadav1507/security-event-detection-and-analysis-automation-tool/edit/main/README.md#pull-requests)
 
-Change Log & Future Updates
+[Change Log & Future Updates](https://github.com/akashyadav1507/security-event-detection-and-analysis-automation-tool/edit/main/README.md#change-log--future-updates)
 
 ## Features
 
@@ -45,7 +45,7 @@ This tool can currently perform below tasks :
    - Sanitization/Masking of Indicators of Compromise(IOCs) so that same can be sent safely over an email
    - Performing Brand Monitoring Analysis
 
-Requirements.txt
+## Requirements
 
    1. Python 3.x installed on machine
    2. Install all dependencies through requirements.txt file.
@@ -53,7 +53,7 @@ Requirements.txt
 ```
 pip install -r requirements.txt
 ```
-   3. Multiple threat intelligence platforms' APIs are being utilized in this script, hence API keys from these platforms are required to confirm full functionality of script. Create accounts using below links and capture the API Keys from the same. Further details on feeding keys to code will be discussed in How to Use section of README.md.
+   3. Multiple threat intelligence platforms' APIs are being utilized in this script, hence API keys from these platforms are required to confirm full functionality of script. Create accounts using below links and capture the API Keys from the same. Further details on feeding keys to code will be discussed in [How to Use](https://github.com/akashyadav1507/security-event-detection-and-analysis-automation-tool/edit/main/README.md#how-to-use) section of README.md.
 
    - [Virustotal API Key](https://developers.virustotal.com/reference)
    - [Abuse IP DB API Key](https://www.abuseipdb.com/api)
