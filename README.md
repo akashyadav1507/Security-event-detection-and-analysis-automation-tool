@@ -26,15 +26,15 @@ Change Log & Future Updates
 This tool can currently perform below tasks :
 
    - Reputation check of IP Addresses, Domains, URLs & File Hashes from :
-       - Virustotal
-       - Abuse IP DB
-       - Alienvault OTXv2
-       - Spyse
-       - Phishtank
-       - URL Scan
+       - [Virustotal](https://www.virustotal.com/gui/home/upload)
+       - [Abuse IP DB](https://www.abuseipdb.com/)
+       - [Alienvault OTXv2](https://otx.alienvault.com/)
+       - [Spyse](https://spyse.com/)
+       - [Phishtank](https://phishtank.org/)
+       - [URL Scan](https://urlscan.io/)
    - Performing DNS, Reverse DNS, WHOIS, ISP Lookups
    - Email Security Analysis (Phishing Email Analysis)
-       - Verifying Email Address Reputation (Using Emailrep.io)
+       - Verifying Email Address Reputation (Using [Emailrep.io](https://emailrep.io/))
        - Analyzing a Phishing URL
        - Snadbox a malicious file attachment present in email
        - Email Header Analysis
@@ -55,12 +55,12 @@ pip install -r requirements.txt
 ```
    3. Multiple threat intelligence platforms' APIs are being utilized in this script, hence API keys from these platforms are required to confirm full functionality of script. Create accounts using below links and capture the API Keys from the same. Further details on feeding keys to code will be discussed in How to Use section of README.md.
 
-   - Virustotal API Key
-   - Abuse IP DB API Key
-   - Alienvault OTXv2 API Key
-   - Spyse API Key
-   - URL Scan IO API Key
-   - Emailrep.io API Key
+   - [Virustotal API Key](https://developers.virustotal.com/reference)
+   - [Abuse IP DB API Key](https://www.abuseipdb.com/api)
+   - [Alienvault OTXv2 API Key](https://otx.alienvault.com/api)
+   - [Spyse API Key](https://spyse.com/api)
+   - [URL Scan IO API Key](https://urlscan.io/docs/api/)
+   - [Emailrep.io API Key](https://emailrep.io/key)
 
 ### How to Use
 
@@ -104,7 +104,6 @@ Once the API keys are successfully imported into the tool, the tool is ready to 
 
 A simpler view of menu is given below for assistance :
 
-    1. Python 3.x installed on machine
     1. Reputation/Blocklist Check (IPs, Domains, URLs, Hashes)
       i. Enter Respective entity to check for its reputation.
     2. DNS/WHOIS Lookup Options
@@ -149,4 +148,4 @@ This is the First Version of tool. Below are few planned future updates :
 
 ## Author
 
-Akash Chaitanya Yadav
+[Akash Chaitanya Yadav](https://github.com/akashyadav1507)
